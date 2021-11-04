@@ -17,13 +17,13 @@ public class BuildingAssembly {
 		// Sort this array based on Floor size in decreasing order.
 		InsertionSortUtil.insertionSort(floorsAndDays);
 
-		System.out.println("\nSorted Array in Decreasing order of Floor Size");
+//		System.out.println("\nSorted Array in Decreasing order of Floor Size");
 		for (int i = 0; i < floorsAndDays.length; i++) {
-			System.out.println(Arrays.toString(floorsAndDays[i]));
+//			System.out.println(Arrays.toString(floorsAndDays[i]));
 		}
 
 		System.out.println(
-				"\nNow iterating over above array and \nif Largest unassembled floor is unavailable TODAY then no floor is assembled today");
+				"\nNow iterating DS and \nif Largest unassembled floor is unavailable TODAY then no floor is assembled today");
 
 		int floorIndex = 0;
 		

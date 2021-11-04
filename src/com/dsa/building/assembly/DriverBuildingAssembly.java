@@ -44,38 +44,26 @@ public class DriverBuildingAssembly {
 
 //OUTPUT
 //
-//Enter the Number of Floors to Construct: 6
+//
+//Enter the Number of Floors to Construct: 5
 //Enter the size of Floors available on follwing days: 
 //Day 1 : 4
-//Day 2 : 5
-//Day 3 : 6
-//Day 4 : 1
-//Day 5 : 3
-//Day 6 : 2
+//Day 2 : 3
+//Day 3 : 1
+//Day 4 : 5
+//Day 5 : 2
 //
-//
-//====INSERTION SORT FOR SMALL 2D-ARRAY=====
-//
-//Sorted Array in Decreasing order of Floor Size
-//[6, 3]
-//[5, 2]
-//[4, 1]
-//[3, 5]
-//[2, 6]
-//[1, 4]
-//
-//Now iterating over above array and 
+//Now iterating DS and 
 //if Largest unassembled floor is unavailable TODAY then no floor is assembled today
 //Day 1 Floors made today : 
 //Day 2 Floors made today : 
 //Day 3 Floors made today : 
-//	Floor : 6
+//Day 4 Floors made today : 
 //	Floor : 5
 //	Floor : 4
-//Day 4 Floors made today : 
-//Day 5 Floors made today : 
 //	Floor : 3
-//Day 6 Floors made today : 
+//Day 5 Floors made today : 
 //	Floor : 2
 //	Floor : 1
+
 

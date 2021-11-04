@@ -16,7 +16,7 @@ public class InsertionSortUtil {
 	 * @param array
 	 */
 	public static void insertionSort(int array[][]) {
-		System.out.println("\n\n====INSERTION SORT FOR SMALL 2D-ARRAY=====");
+//		System.out.println("\n\n====INSERTION SORT FOR SMALL 2D-ARRAY=====");
 		int n = array.length;
 		int forCount = 0, whileCount = 0;
 		for (int j = 1; j < n; j++) {
